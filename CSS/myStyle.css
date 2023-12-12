@@ -1,0 +1,505 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+:root {
+    /* Color */
+    --mainText : #121212;
+    --descText : #555555;
+    --secondaryInfo : #999999;
+    --acsentBlue : #075BE1;
+    --acsentOrange : #F55741;
+    --white : #fff;
+    --bgCard : #212121;
+    --bgLight : #F5F5F5;
+
+    --roboto :     font-family: 'Roboto', sans-serif;
+}
+
+
+/* ------------------------------------------------------------------- */
+body {
+    overflow-x: hidden;
+}
+/* Navbar */
+.navbar {
+    padding: 20px 0 !important;
+    z-index: 100;
+    background-color: var(--white);
+}.navbar-nav {
+    text-transform: uppercase;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}.nav-item .nav-link {
+    margin-right: 20px;
+    color: var(--mainText);
+}.nav-item .nav-link:active {
+    margin-right: 20px;
+    color: var(--mainText);
+}.nav-item .nav-link:hover {
+    margin-right: 20px;
+    color: var(--acsentBlue);
+}.active {
+    color: var(--acsentBlue) !important;
+}
+
+.btnTalk {
+    border: 2px solid var(--mainText);
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5%;
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}.btnTalk:hover {
+    background-color: var(--acsentBlue);
+    color: var(--white);
+    border: 2px solid var(--white);
+}
+/* Navbar End */
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    background-image: url('/assets/ornamen.svg');
+    background-repeat: no-repeat;
+    margin-top: 88px;
+    background-color: var(--white);
+
+ } #hero .container-lg {
+    z-index: 100 !important;
+ } #hero .potoUtama {
+    z-index: 100 !important;
+ }
+#hero .judulPendukung {
+    text-transform: uppercase;
+    color: var(--acsentBlue);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    margin-top: 32px;
+}#hero .judulBesar {
+    color: var(--mainText);
+    font-family: 'Clash Display', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 1%;
+    width: 628px;
+    margin-top: 16px;
+} #hero p {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1%;
+    color: var(--descText);
+    margin-top: 24px;
+} #hero img {
+    position: relative;
+    top: -50px;
+    z-index: -1;
+}
+
+
+.btnHero {
+    margin-top: 32px;
+}.btnPrimary {
+    border: none;
+    background-color: var(--acsentBlue);
+    color: var(--white);
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5%;
+    font-size: 14px;
+    padding: 16px;
+    letter-spacing: 5%;
+    margin-right: 16px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}.btnPrimary:hover {
+    border: none;
+    background-color: rgb(10, 10, 168);
+    color: var(--white);
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5%;
+    font-size: 14px;
+    padding: 16px;
+    letter-spacing: 5%;
+    margin-right: 16px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+} 
+
+.skillContent {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-bor
+}
+
+.btnSecondary {
+    border: 2px solid var(--secondaryInfo);
+    color: var(--acsentBlue);
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5%;
+    font-size: 14px;
+    padding: 16px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+} .btnSecondary:hover{
+    border: 2px solid var(--white);
+    color: var(--white);
+    background-color: var(--acsentBlue);
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5%;
+    font-size: 14px;
+    padding: 16px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+/* Hero Section End */
+
+/* Education Section */
+#education {
+    background-color: #F5F5F5;
+    padding: 100px 0;
+}#education h2 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Clash Display', sans-serif;
+    color: var(--mainText);
+    letter-spacing: 5%;
+}.textFormal {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: var(--acsentBlue);
+    letter-spacing: 5%;
+    margin-top: 56px;
+} .textNonFormal {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: var(--acsentOrange);
+    letter-spacing: 5%;
+    margin-top: 56px;
+}
+
+.containerEdu {
+    margin-top: 24px;
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+}.formal .contentEdu {
+    gap: 300px;
+    padding: 24px 16px 32px 16px;
+    border-top: 1.5px solid var(--secondaryInfo);
+    /* border: 1px solid orange; */
+    justify-content: space-between;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}.formal .contentEdu:hover {
+    gap: 300px;
+    padding: 24px 16px 32px 16px;
+    border-top: 1.5px solid var(--secondaryInfo);
+    /* border: 1px solid orange; */
+    justify-content: space-between;
+    background-color: #e4e4e4;
+}
+.nonFormal .contentEdu {
+    gap: 300px;
+    padding: 24px 16px 32px 16px;
+    border-top: 1.5px solid var(--secondaryInfo);
+    justify-content: space-between;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}.nonFormal .contentEdu:hover {
+    gap: 300px;
+    padding: 24px 16px 32px 16px;
+    border-top: 1.5px solid var(--secondaryInfo);
+    /* border: 1px solid orange; */
+    justify-content: space-between;
+    background-color: #e4e4e4;
+}
+.containerEdu .kiri h5 {
+    color: var(--mainText);
+    font-family: 'Clash Display', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5%;
+}.containerEdu .kiri h6 {
+    color: var(--descText);
+    font-family: 'Clash Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 5%;
+} .containerEdu .kanan h5 {
+    color: var(--mainText);
+    font-family: 'Clash Display', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5%;
+}.containerEdu .kanan h6 {
+    color: var(--descText);
+    font-family: 'Clash Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 5%;
+}.containerEdu .kanan {
+    text-align: right;
+}
+/* Education Section End */
+
+
+/* Experience Section */
+#experience {
+    background-color: var(--mainText);
+    padding: 100px 0;
+    letter-spacing: 5%;
+}#experience .containerCard {
+    /* border: 2px solid blue; */
+    margin-top: 32px;
+}
+#experience h2 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Clash Display', sans-serif;
+    color: var(--white);
+    letter-spacing: 5%;
+}#experience .contentCard {
+    text-transform: uppercase;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 24px;
+    background-color: var(--bgCard);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    gap: 24px;
+    margin-bottom: 12px;
+}#experience .cardKiri{
+    /* border: 1px solid yellow; */
+    margin-right: 12px;
+}#experience .cardKanan {
+    /* border: 1px solid yellow; */   
+    margin-left: 12px;
+}
+.textKiri h1 {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Clash Display', sans-serif;
+    color: var(--descText);
+}.textKanan h4 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Clash Display', sans-serif;
+    color: var(--white);
+}.textKanan p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Clash Display', sans-serif;
+    color: var(--descText);
+    padding-top: 16px;
+}
+/* Experience Section End */
+
+
+/* Portfolio Section */
+#portfolio {
+    background-color: var(--bgLight);
+    padding: 100px 0;
+}
+/* Portfolio Section End */
+
+
+/* skill */
+#skill {
+    padding: 200px 0 100px 0;
+}.skillContent .judulPendukung {
+    text-transform: uppercase;
+    color: var(--acsentBlue);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    margin-top: 32px;
+}.skillContent {
+    letter-spacing: 1%;
+    text-align: center;
+}
+.skillContent h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--mainText);
+    font-family: 'Clash Display', sans-serif;
+    letter-spacing: 5%;
+}.skillContent .iconSkill img {
+    padding: 0 24px;
+    padding-top: 16px;
+    justify-content: center !important;
+    margin-top: 32px;
+}
+/* skill End */
+
+/* Footer */
+#footer {
+    padding: 200px 0 100px 0;
+}.footerContent {
+    letter-spacing: 1%;
+    text-align: center;
+}
+.footerContent h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--mainText);
+    font-family: 'Clash Display', sans-serif;
+}.footerContent p {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--descText);
+    font-family: var(--roboto);
+    padding-top: 8px;
+}.footerContent .emailFooter {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--acsentBlue);
+    font-family: var(--roboto);
+    padding-top: 8px;
+}.footerContent .iconFooter img {
+    padding: 0 24px;
+    padding-top: 16px;
+    justify-content: center !important;
+}.footerContent .creator{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--secondaryInfo);
+    font-family: var(--roboto);
+    padding-top: 100px;
+}
+/* Footer End */
+
+
+
+
+
+
+
+
+/* ABOUT ME */
+
+/* Section Hero 2 */
+#hero2 {
+    margin-top: 30px;
+}
+
+/* Section Hero 2 */
+
+/* Section About Me */
+#aboutMe {
+    text-align: center;
+    background-image: url('/assets/ornamenAbout.svg');
+    padding: 56px;
+}#aboutMe .judulPendukung {
+    text-transform: uppercase;
+    color: var(--acsentBlue);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    margin-top: 32px;
+}#aboutMe .judulBesar {
+    color: var(--mainText);
+    font-family: 'Clash Display', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 1%;
+    margin-top: 16px;
+}#aboutMe p {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1%;
+    color: var(--descText);
+    margin-top: 24px;
+}
+/* Section About Me */
+
+/* Logo Design */
+.contentPortfolio {
+    text-align: center;
+}.contentPortfolio h3 {
+    letter-spacing: 5%;
+    color: var(--mainText);
+    font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+} .contentPortfolio p {
+    letter-spacing: 1%;
+    color: var(--descText);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+} .contentPortfolio .logo {
+    margin-top: 80px;
+}.contentPortfolio .logo img{
+    margin-top: 24px;
+} 
+.contentPortfolio .motion {
+    margin-top: 80px;
+}.contentPortfolio .motion video {
+    margin-top: 24px;
+} 
+.contentPortfolio .graphic {
+    margin-top: 80px;
+} .contentPortfolio .graphic img {
+    margin-top: 24px;
+}
+/* Logo Design End*/
+
+/* ABOUT ME END */
